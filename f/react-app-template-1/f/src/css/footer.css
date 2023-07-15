@@ -1,0 +1,16 @@
+
+#footer-box {
+      display: flex;
+      flex-direction: column;
+      padding-top: 60px;
+      align-items: center;
+      height: 100px;
+      background: url('../images/logos/lmno_silver_45_latice.png'),
+      linear-gradient(
+        to top,
+        rgb(33, 31, 31) 0%,
+        rgb(66, 63, 63) 100%
+      )
+}
+
+

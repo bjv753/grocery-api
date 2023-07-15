@@ -1,0 +1,103 @@
+.portfolio-nav{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 35px;
+}
+
+#rs-link{
+  margin:20px;
+}
+#cc-link{
+  margin:20px;
+}
+#lmno-link{
+  margin:20px;
+}
+#ta-link{
+  margin:20px;
+}
+#ua-link{
+  margin:20px;
+}
+
+#default {
+  width: 700px;
+  height: 100px;
+  background-color: rgb(58, 62, 69);
+  border-radius: 6px;
+  text-align: center;
+}
+
+
+#rs-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#rs {
+  width: 700px;
+  height: 300px;
+  background-color: rgb(208, 213, 53);
+  border-radius: 6px;
+  text-align: center;
+}
+
+#cc {
+  width: 700px;
+  height: 300px;
+  background-color: brown;
+  border-radius: 6px;
+  text-align: center;
+}
+
+#cc-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#lmno-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#lmno {
+  width: 700px;
+  height: 300px;
+  background-color: rgb(28, 93, 197);
+  border-radius: 6px;
+  text-align: center;
+}
+
+#ta-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#ta {
+  width: 700px;
+  height: 300px;
+  background-color: rgb(27, 177, 142);
+  border-radius: 6px;
+  text-align: center;
+}
+
+#ua-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#ua {
+  width: 700px;
+  height: 300px;
+  background-color: rgb(207, 90, 32);
+  border-radius: 6px;
+  text-align: center;
+}
+
+
