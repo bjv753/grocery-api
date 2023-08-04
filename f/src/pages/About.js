@@ -1,11 +1,10 @@
 import React from 'react'
-import propic from '../images/cross-hatch.png'
 
 const About = () => {
   return (
     <div className='app' >
       <div id="about-box">
-        <img id='profile-picture' src={propic} alt="" />
+        <img id='profile-picture' src='cross-hatch.png' alt="" />
     <h2 id='about'>I enjoy technology and solving hard problems!
       This is why I love web development. It allows me to collaborate and use my 
       natural ability to make a positive impact. My ultimate 

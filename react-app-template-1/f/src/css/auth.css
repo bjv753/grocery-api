@@ -1,0 +1,56 @@
+#auth-box {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: black;
+      border: 3px solid rgb(100, 97, 97);
+      border-radius: 13px;
+      height: 400px;
+      width: 300px;
+      margin-top: 3%;
+      top: 175px;
+      z-index: 4;
+      background:
+          linear-gradient(
+            to top,
+            rgb(33, 31, 31) 0%,
+            rgb(57, 54, 54) 100%
+          );
+          box-shadow: inset 0 -3em 9em rgba(0, 0, 0, 0.496),
+          0.3em 0.3em 9em rgba(0, 0, 0, 0.746);
+    }
+
+    #close-icon {
+      cursor: pointer;
+      font-size: 18px;
+      margin-top: 5%;
+      margin-left: 80%;
+    }
+    
+    #form-box{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding:6px;
+    }
+    
+    #auth-form {
+      margin-top: 6%;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      color: black;
+    }
+    
+    #inputs {
+      margin: 6px;
+      padding: 6px;
+      color:rgb(29, 27, 27);
+}
+
+#signature-buttons {
+  padding: 6px 21px;
+  border-radius: 3px;
+  background-color: rgb(67, 62, 62);
+}

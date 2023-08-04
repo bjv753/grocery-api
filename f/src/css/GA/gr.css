@@ -1,0 +1,64 @@
+* {
+      background-color: rgb(21, 20, 20);
+      color: whitesmoke;
+      font-family: 'Titillium Web';
+      text-align: center;
+    }
+    
+    body {
+      font-size: 21px;
+      margin: 55px;
+      margin-left: 55px;
+      color: whitesmoke;
+    }
+    
+    h2 {
+      font-size: 62px;
+      color: whitesmoke;
+    }
+    
+    input, button {
+      border-radius: 5px;
+      padding: 10px;
+      margin: 5px;
+      color:aliceblue;
+    }
+    
+    #form-box {
+      display: flex;
+      flex-direction: column;
+      max-width: 2400px;
+      align-items: center;  
+    }
+    
+    #form {
+      width: 500px;
+      border-radius: 5px;
+      margin: 2px;
+      text-align: center;
+    }
+    
+    #box-box {
+      max-width: 2400px;
+      justify-content: center;  
+    }
+    
+    #box {
+      min-width: 500px;
+      max-width: 700px;
+      border: 1px solid whitesmoke;
+      border-radius: 13px;
+      padding: 34px;
+      margin: 8px;
+    }
+    
+    #delete-btn {
+      background-color: rgb(134, 29, 29);
+      color: whitesmoke;
+    }
+    
+    #edit-btn {
+      background-color: rgb(29, 81, 134);
+      color: whitesmoke;
+    }
+    

@@ -1,0 +1,238 @@
+[
+      {
+            "id": 1,
+            "name": "light-crew-t",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/light_crew_t.png"
+      },
+      {
+            "id": 1,
+            "name": "dark-crew-t",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/dark_crew_t.png"
+      },
+      {
+            "id": 1,
+            "name": "light-pink-crew-t",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/lightpink_crew_t.png"
+      },
+      {
+            "id": 1,
+            "name": "dark-pink-crew-t",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/darkpink_crew_t.png"
+      },
+      {
+            "id": 1,
+            "name": "light-green-crew-t",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/lightgreen_crew_t.png"
+      },
+      {
+            "id": 1,
+            "name": "dark-green-crew-t",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/darkgreen_crew_t.png"
+      },
+      {
+            "id": 2,
+            "name": "light-board-shorts",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/light_board_shorts.png"
+      },
+      {
+            "id": 2,
+            "name": "dark-board-shorts",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/dark_board_shorts.png"
+      },
+      {
+            "id": 2,
+            "name": "lightpink-board-shorts",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/lightpink_board_shorts.png"
+      },
+      {
+            "id": 2,
+            "name": "darkpink-board-shorts",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/darkpink_board_shorts.png"
+      },
+      {
+            "id": 2,
+            "name": "lightgreen-board-shorts",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/lightgreen_board_shorts.png"
+      },
+      {
+            "id": 2,
+            "name": "darkgreen-board-shorts",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/darkgreen_board_shorts.png"
+      },
+      {
+            "id": 3,
+            "name": "light-long-sleeve",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/light_long_sleeve.png"
+      },
+      {
+            "id": 3,
+            "name": "dark-long-sleeve",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/dark_long_sleeve.png"
+      },
+      {
+            "id": 3,
+            "name": "lightpink-long-sleeve",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/lightpink_long_sleeve.png"
+      },
+      {
+            "id": 3,
+            "name": "darkpink-long-sleeve",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/darkpink_long_sleeve.png"
+      },
+      {
+            "id": 3,
+            "name": "lightgreen-long-sleeve",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/lightgreen_long_sleeve.png"
+      },
+      {
+            "id": 3,
+            "name": "darkgreen-long-sleeve",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/darkgreen_long_sleeve.png"
+      },
+      {
+            "id": 4,
+            "name": "light-joggers",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/light_joggers.png"
+      },
+      {
+            "id": 4,
+            "name": "dark-joggers",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/dark_joggers.png"
+      },
+      {
+            "id": 4,
+            "name": "lightpink-joggers",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/lightpink_joggers.png"
+      },
+      {
+            "id": 4,
+            "name": "darkpink-joggers",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/darkpink_joggers.png"
+      },
+      {
+            "id": 4,
+            "name": "lightgreen-joggers",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/lightgreen_joggers.png"
+      },
+      {
+            "id": 4,
+            "name": "darkgreen-joggers",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/darkgreen_joggers.png"
+      },
+
+
+
+
+
+
+
+
+
+      
+      {
+            "id": 5,
+            "name": "light-boxer-briefs",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/light_boxer_briefs.png"
+      },
+      {
+            "id": 5,
+            "name": "dark-boxer-briefs",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/dark_boxer_briefs.png"
+      },
+      {
+            "id": 5,
+            "name": "lightpink-boxer-briefs",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/lightpink_boxer_briefs.png"
+      },
+      {
+            "id": 5,
+            "name": "darkpink-boxer-briefs",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/darkpink_boxer_briefs.png"
+      },
+      {
+            "id": 5,
+            "name": "lightgreen-boxer-briefs",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/lightgreen_boxer_briefs.png"
+      },
+      {
+            "id": 5,
+            "name": "darkgreen-boxer-briefs",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/darkgreen_boxer_briefs.png"
+      },
+
+
+
+
+
+
+
+
+
+      
+      {
+            "id": 6,
+            "name": "light-flip-flops",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/light_flip_flops.png"
+      },
+      {
+            "id": 6,
+            "name": "dark-flip-flops",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/dark_flip_flops.png"
+      },
+      {
+            "id": 6,
+            "name": "lightpink-flip-flops",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/lightpink_flip_flops.png"
+      },
+      {
+            "id": 6,
+            "name": "darkpink-flip-flops",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/darkpink_flip_flops.png"
+      },
+      {
+            "id": 6,
+            "name": "lightgreen-flip-flops",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/lightgreen_flip_flops.png"
+      },
+      {
+            "id": 6,
+            "name": "darkgreen-flip-flops",
+            "price": 10.00,
+            "imgUrl": "/images/apparel/darkgreen_flip_flops.png"
+      }
+]

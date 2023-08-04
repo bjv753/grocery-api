@@ -6,8 +6,9 @@ import Contact from './pages/Contact'
 import CC from './pages/npages/CC'
 import LMNO from './pages/npages/LMNO'
 import RS from './pages/npages/RS'
-import TA from './pages/npages/TA'
+import GL from './pages/npages/GL'
 import UA from './pages/npages/UA'
+import CO from './pages/npages/CO'
 
 const App = () => {
   return (
@@ -19,14 +20,15 @@ const App = () => {
              <Link to="/contact" className='link'>Contact</Link>
       </nav>
         <Routes>
-        <Route path="/" element={<Navigate to="/about" />} />
+          <Route path="/" element={<Navigate to="/about" />} />
           <Route path='/about' element={<About/>}/>
           <Route path='/portfolio' element={<Portfolio/>}>
               <Route path='rs' element={<RS/>}/>
               <Route path='cc' element={<CC/>}/>
               <Route path='lmno' element={<LMNO/>}/>
-              <Route path='ta' element={<TA/>}/>
+              <Route path='gl' element={<GL/>}/>
               <Route path='ua' element={<UA/>}/>
+              <Route path='co' element={<CO/>}/>
           </Route>
           <Route path='/contact' element={<Contact/>}/>
         </Routes>

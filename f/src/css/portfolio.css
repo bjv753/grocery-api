@@ -14,10 +14,13 @@
 #lmno-link{
   margin:20px;
 }
-#ta-link{
+#gl-link{
   margin:20px;
 }
 #ua-link{
+  margin:20px;
+}
+#co-link{
   margin:20px;
 }
 
@@ -29,7 +32,6 @@
   text-align: center;
 }
 
-
 #rs-box {
   display: flex;
   flex-direction: column;
@@ -39,7 +41,7 @@
 #rs {
   width: 700px;
   height: 300px;
-  background-color: rgb(208, 213, 53);
+  background-color: rgb(215, 205, 18);
   border-radius: 6px;
   text-align: center;
 }
@@ -100,4 +102,50 @@
   text-align: center;
 }
 
+#co-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#co {
+  width: 700px;
+  height: 300px;
+  background-color: rgb(158, 181, 179);
+  border-radius: 6px;
+  text-align: center;
+  align-items: center;
+}
+
+#form-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+#form {
+  background: rgb(139,150,146);
+  background: linear-gradient(90deg, rgba(139,150,146,1) 9%, rgba(97,103,102,1) 48%, rgba(203,211,210,1) 91%);
+  padding: 15px;
+  max-width: 66%;
+  border: 1px solid rgba(30, 40, 36, 0.206);
+  border-radius: 6px;
+}
+
+#cvc {
+  max-width: 30px;
+}
+
+#cn,#cvc,#fn,#ln,#ln::-webkit-input-placeholder {
+  text-align: center;
+}
+
+#cob{
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: rgba(240, 248, 255, 0.782);
+  height: 30px;
+  width: 80px;
+}
 
