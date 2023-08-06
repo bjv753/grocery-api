@@ -1,5 +1,5 @@
 #contact-box {
-      background: linear-gradient(90deg, rgb(115, 111, 111) 9%, rgb(89, 85, 85) 48%, rgba(102, 98, 98, 0.888) 91%);
+      background: linear-gradient(90deg, rgb(165, 174, 171) 9%, rgb(110, 117, 116) 48%, rgba(203,211,210,1) 91%);
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -25,14 +25,14 @@
       font-family: Titillium Web;
       color:rgb(9, 26, 46);
       text-align: center;
-      background-color: rgba(245, 240, 240, 0.9);
+      background-color: rgba(255, 255, 255, 0.9);
       border: 2px solid  linear-gradient(90deg, rgb(150, 139, 139) 9%, rgb(103, 97, 97) 48%, rgb(211, 203, 203) 91%);
 }
 
 #text-area{
-      border:  linear-gradient(90deg, rgba(139,150,146,1) 9%, rgba(97,103,102,1) 48%, rgba(203,211,210,1) 91%);
+      border:  1px solid black;
       border-radius: 8px;
-      background-color: rgba(245, 240, 240, 0.9);
+      background-color: rgba(255, 255, 255, 0.9);
       font-family: Titillium Web;
       height: 155px;
       width: 300px;

@@ -54,7 +54,7 @@ export default function GroceryRequests () {
   }, [])
 
   return (
-    <div id='form-box'>
+    <div id='gl-form-box'>
       <GroceryForm submit={addGrocery} btnText={'Add Grocery'} />
       {grocery.map(prevGrocery => (
         <Grocery

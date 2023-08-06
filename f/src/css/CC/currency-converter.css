@@ -16,6 +16,9 @@
     }
     
     .input-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
       background-color: rgb(47, 49, 49);
       padding: 30px;
       border: solid 1px rgb(181, 184, 188);
@@ -24,23 +27,19 @@
     }
     
     .exchange-rate {
-      background-color: brown;
-      padding: 20px;
+      background: linear-gradient(90deg, rgb(165, 174, 171) 9%, rgb(110, 117, 116) 48%, rgba(203,211,210,1) 91%);
       box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-      border-bottom: solid 1px rgb(181, 184, 188);
-      border-left: solid 1px rgb(181, 184, 188);
-      border-right: solid 1px rgb(181, 184, 188);
-      border-top: solid 1px rgb(181, 184, 188);
+      border-bottom: solid 1px rgb(27, 28, 29);
       border-radius:7px;
     }
     
-    p, td  {
+    #xd, td  {
       color:aliceblue;
       margin-bottom: 11px;
       margin-top: -10px;
     }
     
-    input, select, button {
+    #co-input, select, button {
       background-color: rgb(70, 66, 66);
       font-size: 13px;
       color:aliceblue;
@@ -62,6 +61,6 @@
       background-color: coral;
     }
     
-    .input, select {
+    /* .input, select {
       border: none;
-    }
+    } */

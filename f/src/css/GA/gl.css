@@ -1,0 +1,60 @@
+    
+    body {
+      font-size: 21px;
+      margin: 55px;
+      margin-left: 55px;
+      color: whitesmoke;
+    }
+    
+    input, button {
+      border-radius: 5px;
+      padding: 10px;
+      margin: 5px;
+      color:aliceblue;
+    }
+    
+    #gl-form-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;  
+      border-radius: 6px;
+    }
+    
+    #gl-form {
+      width: 600px;
+      border-radius: 5px;
+      text-align: center;
+      padding: 20px;
+      background: linear-gradient(90deg, rgb(165, 174, 171) 9%, rgb(110, 117, 116) 48%, rgba(203,211,210,1) 91%);
+    }
+
+    #btn-box{
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+    #box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgb(255, 255, 255);
+      border: 1px solid rgb(30, 29, 29);
+      border-radius: 6px;
+      width: 380px;
+    }
+
+    #gr, #pr {
+      font-size: 21px;
+      color: black;
+      text-align: center;
+    }
+    
+    #delete-btn {
+      color: whitesmoke;
+    }
+    
+    #edit-btn {
+      color: whitesmoke;
+    }
+    
