@@ -5,7 +5,7 @@ import About from './pages/About'
 import Contact from './pages/Contact'
 import CC from './pages/npages/CC'
 import LMNO from './pages/npages/LMNO'
-import RS from './pages/npages/RS'
+import CSSG from './pages/npages/CSSG'
 import GL from './pages/npages/GL'
 import UA from './pages/npages/UA'
 import CO from './pages/npages/CO'
@@ -23,7 +23,7 @@ const App = () => {
           <Route path="/" element={<Navigate to="/about" />} />
           <Route path='/about' element={<About/>}/>
           <Route path='/portfolio' element={<Portfolio/>}>
-              <Route path='rs' element={<RS/>}/>
+              <Route path='rs' element={<CSSG/>}/>
               <Route path='cc' element={<CC/>}/>
               <Route path='lmno' element={<LMNO/>}/>
               <Route path='gl' element={<GL/>}/>
