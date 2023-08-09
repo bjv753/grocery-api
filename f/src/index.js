@@ -7,6 +7,7 @@ import './css/portfolio.css'
 import './css/CSSG/cssg.css'
 import './css/CC/currency-converter.css'
 import './css/CO/co.css'
+import './css/GL/gl.css'
 import App from './App'
 
 const root = ReactDOM.createRoot(document.getElementById('root'))

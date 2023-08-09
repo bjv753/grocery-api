@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react'
 
 const CSSG = () => {
-  const [color1, setColor1] = useState('#e042ff')
-  const [color2, setColor2] = useState('#ebee44')
-  const [direction, setDirection] = useState('to right bottom')
+  const [color1, setColor1] = useState('#ffffff')
+  const [color2, setColor2] = useState('#000000')
+  const [direction, setDirection] = useState('to top')
   const [display, setDisplay] = useState(null)
   const [rgbaValues, setRgbaValues] = useState(null)
 
