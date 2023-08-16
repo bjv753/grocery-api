@@ -1,9 +1,13 @@
+#contact-header {
+      margin-top: 70px;
+      margin-bottom: -30px;
+}
+
 #contact-box {
       background: linear-gradient(90deg, rgb(165, 174, 171) 9%, rgb(110, 117, 116) 48%, rgba(203,211,210,1) 91%);
       display: flex;
       flex-direction: column;
       align-items: center;
-      margin-top: 1px;
       padding: 14px;
       border:  2px solid rgb(48, 46, 46);
       border-radius: 13px;

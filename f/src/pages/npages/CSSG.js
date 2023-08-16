@@ -38,8 +38,9 @@ const CSSG = () => {
     setRgbaValues(sixValues)
   }, [color1, color2, direction])
 
-  // render the JSX_
   return (
+    <>
+    <h1>Gradient Generator</h1>
     <div className='jsx'>
       <div className='jsx-box'>
         <div className='display-box'>
@@ -81,6 +82,7 @@ const CSSG = () => {
         </div>
       </div>
     </div>
+    </>
   )
 }
 

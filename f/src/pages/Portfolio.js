@@ -18,8 +18,8 @@ function Portfolio () {
           <Link id='gl-link' to='/portfolio/gl'>
             GL
           </Link>
-          <Link id='ua-link' to='/portfolio/ua'>
-            UA
+          <Link id='ti-link' to='/portfolio/ti'>
+            TI
           </Link>
           <Link id='co-link' to='/portfolio/co'>
             CO

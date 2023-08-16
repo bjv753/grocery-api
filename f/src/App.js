@@ -7,7 +7,7 @@ import CC from './pages/npages/CC'
 import LMNO from './pages/npages/LMNO'
 import CSSG from './pages/npages/CSSG'
 import GL from './pages/npages/GL'
-import UA from './pages/npages/UA'
+import TI from './pages/npages/TI'
 import CO from './pages/npages/CO'
 
 const App = () => {
@@ -27,7 +27,7 @@ const App = () => {
               <Route path='cc' element={<CC/>}/>
               <Route path='lmno' element={<LMNO/>}/>
               <Route path='gl' element={<GL/>}/>
-              <Route path='ua' element={<UA/>}/>
+              <Route path='ti' element={<TI/>}/>
               <Route path='co' element={<CO/>}/>
           </Route>
           <Route path='/contact' element={<Contact/>}/>

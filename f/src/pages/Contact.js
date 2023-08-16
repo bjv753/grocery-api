@@ -15,7 +15,8 @@ const Contact = () => {
       });
   };
   return (
-    
+    <>
+    <h1 id='contact-header'>Contact Ben</h1>
       <form id='contact-box' ref={form} onSubmit={sendEmail}>
     <h2 id='contact-name'>Name</h2>
     <input id='contact-input' type="text" name='user_name'/>
@@ -27,7 +28,7 @@ const Contact = () => {
       <textarea id='text-area' name='message'/>
       <button id="send">Send</button>
       </form>
-
+      </>
   )
 }
 
