@@ -3,7 +3,7 @@ const app = express()
 require('dotenv').config()
 const morgan = require('morgan')
 const mongoose = require('mongoose')
-const {expresswt} = require('express-jwt')
+const {expressjwt} = require('express-jwt')
 
 // Middleware (for each request)
 app.use(express.json())
