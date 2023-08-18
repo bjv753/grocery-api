@@ -6,13 +6,21 @@
       color: whitesmoke;
     }
     
-    #gl-input, button {
+    input {
+      background-color: rgb(255, 255, 255);
       border-radius: 5px;
-      padding: 10px;
+      padding: 5px;
       margin: 5px;
-      color:aliceblue;
+    }
+
+    button {
+      padding: 10px;
     }
     
+select {
+  padding: 5px;
+}
+
     #gl-form-box {
       display: flex;
       flex-direction: column;
