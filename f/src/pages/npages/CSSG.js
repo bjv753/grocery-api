@@ -53,13 +53,14 @@ const CSSG = () => {
           <div className='rgbaValues'>{rgbaValues}</div>
         </div>
         <div className='input-box'>
-          <input
+        <input
             className='colors'
             type='color'
-            name='color1'
-            value={color1}
-            onChange={e => setColor1(e.target.value)}
+            name='color2'
+            value={color2}
+            onChange={e => setColor2(e.target.value)}
           />
+          
           <div className='select-box'>
             <select
               name='directions'
@@ -75,9 +76,9 @@ const CSSG = () => {
           <input
             className='colors'
             type='color'
-            name='color2'
-            value={color2}
-            onChange={e => setColor2(e.target.value)}
+            name='color1'
+            value={color1}
+            onChange={e => setColor1(e.target.value)}
           />
         </div>
       </div>
