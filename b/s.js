@@ -9,10 +9,9 @@ const { expressjwt } = require('express-jwt')
 app.use(express.json())
 app.use(morgan('dev'))
 
-
 // Connect to DB
 mongoose.connect(
-  'mongodb://localhost:27017/trackingapp',
+  'mongodb://127.0.0.1:27017/trackingapp',
   console.log('Connected to the DB')
 )
 
