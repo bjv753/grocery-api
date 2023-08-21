@@ -24,37 +24,39 @@ function CO () {
   let cards = ['VISA', 'MASTERCARD']
   const [card, setCard] = useState('VISA')
   return (
-    <div id='co-box'>
-      <div id='co'>
-        <h1>Checkout</h1>
-        <div id='co-form-box'>
-          <div id='co-form'>
+<>       
+<h1>Checkout</h1>
+        <div id='co-box'>
+          <div id='co'>
+            <div id="co-in-box">
             <input id='fn' type='text' placeholder='First Name' />
             <input id='ln' type='text' placeholder='Last Name' />
-            <br />
-            <select name='' id=''>
+            </div>
+          <div id="co-sl-box">
+            <select>
               {cards.map((card, _index) => (
                 <option>{card}</option>
               ))}
             </select>
-            <select name='' id=''>
+            <select>
               {MOY.map((month, _index) => (
                 <option>{month}</option>
               ))}
             </select>
-            <select name='' id=''>
+            <select>
               {DAY.map((day, _index) => (
                 <option>{day}</option>
               ))}
             </select>{' '}
-            <br />
+            </div>
+            <div id="co-crd-box">
             <input id='cn' type='text' placeholder='xxxx xxxx xxxx xxxx' />
             <input id='cvc' type='text' placeholder='CVC' /> <br />
-            <button id='cob'>Checkout</button>
+            </div>
+            <button>Checkout</button>
           </div>
         </div>
-      </div>
-    </div>
+    </>
   )
 }
 

@@ -6,27 +6,27 @@ function Portfolio () {
     <div id='portfolio-box'>
       <div id='portfolio'>
         <div className='portfolio-nav'>
-          <Link id='rs-link' to='/portfolio/rs'>
-            CSSG
+          <Link id='gg-link' to='/portfolio/gg'>
+            GG
           </Link>
           <Link id='cc-link' to='/portfolio/cc'>
             CC
           </Link>
-          <Link id='lmno-link' to='/portfolio/lmno'>
-            LMNO
-          </Link>
           <Link id='gl-link' to='/portfolio/gl'>
             GL
-          </Link>
-          <Link id='ti-link' to='/portfolio/ti'>
-            TI
           </Link>
           <Link id='co-link' to='/portfolio/co'>
             CO
           </Link>
+          <Link id='ti-link' to='/portfolio/ti'>
+            TI
+          </Link>
+          <Link id='ct-link' to='/portfolio/ct'>
+            CT
+          </Link>
         </div>
         <Outlet />
-        <div id='default'></div>
+        
       </div>
     </div>
   )

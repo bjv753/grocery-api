@@ -2,32 +2,40 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-    }
-    
-    #co {
-      width: 700px;
-      height: 300px;
-      border-radius: 6px;
-      text-align: center;
-      align-items: center;
-    }
-
-
-#co-form-box{
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-    }
-    
-    #co-form {
-      background: rgb(139,150,146);
-      background: linear-gradient(90deg, rgb(165, 174, 171) 9%, rgb(110, 117, 116) 48%, rgba(203,211,210,1) 91%);
-      padding: 35px;
       height: 175px;
       width: 360px;
+    }
+
+    #co {
+      display: flex;
+      flex-direction: column;
+      align-items: center ;
+      background: linear-gradient(90deg, rgb(165, 174, 171) 9%, rgb(110, 117, 116) 48%, rgba(203,211,210,1) 91%);
       border: 1px solid rgba(30, 40, 36, 0.206);
       border-radius: 6px;
+      padding: 20px;
+      margin: 20px;
     }
+
+    #co-in-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    #co-sl-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+
+    #co-crd-box {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+    }
+    
+   
     
     #cvc {
       max-width: 30px;
@@ -35,9 +43,5 @@
     
     #cn,#cvc,#fn,#ln,#ln::-webkit-input-placeholder {
       text-align: center;
-    }
-    
-    #cob{
-      margin-top: 15px;
     }
     

@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-const CSSG = () => {
+const GG = () => {
   const [color1, setColor1] = useState('#ffffff')
   const [color2, setColor2] = useState('#000000')
   const [direction, setDirection] = useState('to top')
@@ -46,13 +46,13 @@ const CSSG = () => {
         <div className='display-box'>
           <div
             className='display'
-            style={{ background: display, height: '300px', width: '370px' }}
+            style={{ background: display, height: '200px', width: '270px' }}
           />
         </div>
         <div className='rgba-box'>
           <div className='rgbaValues'>{rgbaValues}</div>
         </div>
-        <div className='input-box'>
+        <div id='color-box'>
         <input
             className='colors'
             type='color'
@@ -87,4 +87,4 @@ const CSSG = () => {
   )
 }
 
-export default CSSG
+export default GG

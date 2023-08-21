@@ -11,14 +11,13 @@ app.use(morgan('dev'))
 
 // Connect to DB
 mongoose.connect(
-  'mongodb://127.0.0.1:27017/trackingapp',
-  console.log('Connected to the DB')
+  process.env.MONGO_DB_URI,
+  (err) => console.log(err)
 )
 
 // Routes
 app.use('/grocery', require('./routes/groceryRouter.js'))
 
-
-app.listen(9000, () => {
-  console.log('Server is listening on PORT 9000')
+app.listen(process.env.PORT, () => {
+  console.log('running on port ' + process.env.PORT )
 })
