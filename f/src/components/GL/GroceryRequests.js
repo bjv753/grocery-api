@@ -9,7 +9,7 @@ export default function GroceryRequests () {
   // GET ONE
   function getGrocery() {
     axios
-      .get('/grocery')
+      .get('https://grocery-api-uktj.onrender.com/grocery')
       .then(response => setGrocery(response.data))
       .catch(error => console.log(error))
   }
@@ -17,7 +17,7 @@ export default function GroceryRequests () {
   // POST  ONE
   function addGrocery(newGrocery) {
     axios
-      .post('/grocery', newGrocery)
+      .post('https://grocery-api-uktj.onrender.com/grocery', newGrocery)
       .then(res => {
         setGrocery(prevGrocery => [...prevGrocery, res.data])
       })
@@ -27,7 +27,7 @@ export default function GroceryRequests () {
   // PUT  ONE
   function editGrocery(updates, groceryId) {
     axios
-      .put(`/grocery/${groceryId}`, updates)
+      .put(`https://grocery-api-uktj.onrender.com/grocery/${groceryId}`, updates)
       .then(res => {
         setGrocery(prevGrocery =>
           prevGrocery.map(grocery =>
@@ -41,7 +41,7 @@ export default function GroceryRequests () {
   // DELETE  ONE
   function deleteGrocery (groceryId) {
     axios
-      .delete(`/grocery/${groceryId}`)
+      .delete(`https://grocery-api-uktj.onrender.com/grocery/${groceryId}`)
       .then(response => {
         setGrocery(prevGrocery => 
           prevGrocery.filter(prevGrocery => prevGrocery._id !== groceryId))
