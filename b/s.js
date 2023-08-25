@@ -6,12 +6,10 @@ const morgan = require('morgan')
 const mongoose = require('mongoose')
 const { expressjwt } = require('express-jwt')
 
-
-
 // Middleware (for each request)
 app.use(cors())
 app.use(express.json())
-app.use(morgan('dev'))
+app.use(morgan('dev')) 
 
 
 // Connect to DB
@@ -23,6 +21,7 @@ mongoose.connect(
 // Routes
 app.use('/grocery', require('./routes/groceryRouter.js'))
 
+// PORT
 app.listen(process.env.PORT, () => {
   console.log('running on port ' + process.env.PORT )
 })

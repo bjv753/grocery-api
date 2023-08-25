@@ -8,12 +8,12 @@ import {
 import Portfolio from './pages/Portfolio'
 import About from './pages/About'
 import Contact from './pages/Contact'
-import CC from './pages/npages/CC'
-import CT from './pages/npages/CT'
-import GG from './pages/npages/GG'
-import GL from './pages/npages/GL'
-import TI from './pages/npages/TI'
-import CO from './pages/npages/CO'
+import CurrencyConverter from './components/CurrencyConverter/CurrencyConverter'
+import Counter from './components/Counter'
+import GradientGenerator from './components/GradientGenerator'
+import GroceryList from './components/GroceryList'
+import Timer from './components/Timer'
+import CheckOut from './components/CheckOut'
 
 const App = () => {
   return (
@@ -34,18 +34,19 @@ const App = () => {
           <Route path='/' element={<Navigate to='/about' />} />
           <Route path='/about' element={<About />} />
           <Route path='/portfolio' element={<Portfolio />}>
-            <Route path='gg' element={<GG />} />
-            <Route path='cc' element={<CC />} />
-            <Route path='ct' element={<CT />} />
-            <Route path='gl' element={<GL />} />
-            <Route path='ti' element={<TI />} />
-            <Route path='co' element={<CO />} />
+            <Route path='/portfolio' element={<Navigate to='/portfolio/gradient-generator' />} />
+            <Route path='gradient-generator' element={<GradientGenerator />} />
+            <Route path='currency-converter' element={<CurrencyConverter />} />
+            <Route path='counter' element={<Counter />} />
+            <Route path='grocery-list' element={<GroceryList />} />
+            <Route path='timer' element={<Timer />} />
+            <Route path='check-out' element={<CheckOut />} />
           </Route>
           <Route path='/contact' element={<Contact />} />
         </Routes>
         <div id='footer-box'>
           <footer>
-            <a href='https://www.linkedin.com/in/ben-v-me/'>Linked In</a>
+            <a href='https://www.linkedin.com/in/ben-v-me/'>LinkedIn</a>
             <a href='https://github.com/bjv753'>GitHub</a>
           </footer>
         </div>

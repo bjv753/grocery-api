@@ -1,6 +1,6 @@
 import React, {useState} from 'react'
 
-function CT() {
+function Counter() {
   const [count, setCount] = useState(0)
   return (
     <>
@@ -16,4 +16,4 @@ function CT() {
   )
 }
 
-export default CT
+export default Counter

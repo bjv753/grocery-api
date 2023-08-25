@@ -71,7 +71,7 @@ const CurrencyConverter = () => {
               <td>Primary Currency</td>
               <td>
                 <input
-                id='co-input'
+                  id='co-input'
                   type='number'
                   name='currency-amount-1'
                   value={amount}
@@ -95,7 +95,7 @@ const CurrencyConverter = () => {
               <td>Secondary Currency</td>
               <td>
                 <input
-                id='co-input'
+                  id='co-input'
                   type='number'
                   name='currency-amount-2'
                   value={result}

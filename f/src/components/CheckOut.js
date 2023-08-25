@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 
-function CO () {
+function CheckOut() {
   let MOY = [
     'JAN',
     'FEB',
@@ -60,4 +60,4 @@ function CO () {
   )
 }
 
-export default CO
+export default CheckOut

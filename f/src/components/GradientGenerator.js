@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
-const GG = () => {
+const GradientGenerator = () => {
   const [color1, setColor1] = useState('#ffffff')
   const [color2, setColor2] = useState('#000000')
   const [direction, setDirection] = useState('to top')
@@ -87,4 +87,4 @@ const GG = () => {
   )
 }
 
-export default GG
+export default GradientGenerator

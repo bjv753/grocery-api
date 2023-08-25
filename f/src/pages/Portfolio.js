@@ -6,27 +6,26 @@ function Portfolio () {
     <div id='portfolio-box'>
       <div id='portfolio'>
         <div className='portfolio-nav'>
-          <Link id='gg-link' to='/portfolio/gg'>
-            GG
+          <Link id='gg-link' to='/portfolio/gradient-generator'>
+            Gradient Generator
           </Link>
-          <Link id='cc-link' to='/portfolio/cc'>
-            CC
+          <Link id='cc-link' to='/portfolio/currency-converter'>
+            Currency Converter
           </Link>
-          <Link id='gl-link' to='/portfolio/gl'>
-            GL
+          <Link id='gl-link' to='/portfolio/grocery-list'>
+            Grocery List
           </Link>
-          <Link id='co-link' to='/portfolio/co'>
-            CO
+          <Link id='co-link' to='/portfolio/check-out'>
+            Checkout
           </Link>
-          <Link id='ti-link' to='/portfolio/ti'>
-            TI
+          <Link id='ti-link' to='/portfolio/timer'>
+            Timer
           </Link>
-          <Link id='ct-link' to='/portfolio/ct'>
-            CT
+          <Link id='ct-link' to='/portfolio/counter'>
+            Counter
           </Link>
         </div>
         <Outlet />
-        
       </div>
     </div>
   )

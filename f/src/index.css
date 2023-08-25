@@ -1,9 +1,11 @@
 html {
   font-family: Titillium Web;
 }
+
 a {
   color:rgb(39, 42, 47);
-  margin: 23px;
+  margin-left: 23px;
+  margin-right: 23px;
 }
 
 h1 {
@@ -36,7 +38,7 @@ p {
 .links {
   text-decoration: none;
   display: flex; 
-  margin-top: 34px;
+  /* margin-top: 14px; */
 }
 
 .link {

@@ -1,7 +1,7 @@
 import React from 'react'
-import GroceryRequests from '../../components/GL/GroceryRequests'
+import GroceryRequests from './GroceryList/GroceryRequests'
 
-function GL () {
+function GroceryList () {
   return (
     <div id='ta-box'>
       <div id='ta'>
@@ -11,4 +11,4 @@ function GL () {
   )
 }
 
-export default GL
+export default GroceryList
