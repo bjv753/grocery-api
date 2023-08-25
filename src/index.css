@@ -1,0 +1,52 @@
+html {
+  font-family: Titillium Web;
+}
+
+a {
+  color:rgb(39, 42, 47);
+  margin-left: 23px;
+  margin-right: 23px;
+}
+
+h1 {
+  color: rgba(14, 15, 15, 0.702);
+  text-align: center;
+}
+
+h2 {
+  color: rgba(14, 15, 15, 0.702);
+  text-align: center;
+}
+
+h3 {
+  color: rgba(14, 15, 15, 0.702);
+  text-align: center;
+}
+
+p {
+  color: rgba(14, 15, 15, 0.702);
+  text-align: center;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 15px;
+}
+
+.links {
+  text-decoration: none;
+  display: flex; 
+  /* margin-top: 14px; */
+}
+
+.link {
+  text-decoration: none;
+  margin-left: 111px;
+  margin-right: 111px;
+  font-size: 28px;
+  color:rgb(46, 60, 77);
+}
+
+

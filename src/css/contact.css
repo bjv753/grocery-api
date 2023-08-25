@@ -1,0 +1,58 @@
+#contact-header {
+      margin-top: 70px;
+      margin-bottom: -30px;
+}
+
+#contact-box {
+      background: linear-gradient(90deg, rgb(165, 174, 171) 9%, rgb(110, 117, 116) 48%, rgba(203,211,210,1) 91%);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      padding: 14px;
+      border:  2px solid rgb(48, 46, 46);
+      border-radius: 13px;
+      box-shadow: 0px 0px 3px 3px  rgba(218, 211, 211, 0.4);
+      transform: scale(.75);
+}
+
+#contact-name, #contact-email, 
+#contact-subject,#contact-message {
+      font-size: 13px;
+      font-family: Titillium Web;
+      color:rgb(226, 231, 237);
+}
+
+#contact-input {
+      height: 30px;
+      width: 234px;
+      font-size: 13px;
+      font-family: Titillium Web;
+      color:rgb(9, 26, 46);
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.9);
+      border: 2px solid  linear-gradient(90deg, rgb(150, 139, 139) 9%, rgb(103, 97, 97) 48%, rgb(211, 203, 203) 91%);
+}
+
+#text-area{
+      border:  1px solid black;
+      border-radius: 8px;
+      background-color: rgba(255, 255, 255, 0.9);
+      font-family: Titillium Web;
+      height: 155px;
+      width: 300px;
+      font-size: 13px;
+      color:rgb(46, 60, 77);
+      margin-left: 34px;
+      margin-right: 34px;
+}
+
+#send {
+      margin-top: 20px;
+      height: 30px;
+      width: 91px;
+      color:rgb(255, 255, 255);
+}
+
+#month {
+      color: white;
+}

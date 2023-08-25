@@ -1,0 +1,77 @@
+body {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .jsx-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: linear-gradient(90deg, rgb(165, 174, 171) 9%, rgb(110, 117, 116) 48%, rgba(203,211,210,1) 91%);
+      border: solid 1px rgb(16, 16, 16);
+      border-radius: 6px;
+      padding: 20px;
+      max-width: 270px;
+    }
+
+    .jsx{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .display-box {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .display {
+      width: 200px;
+      height: 200px;
+      border-radius: 6px;
+      border: solid 1px rgb(16, 16, 16);
+    }
+
+    .rgba-box {
+      text-align: center;
+      display: flex;
+      justify-content: center;
+      border-radius: 6px;
+      font-family: 'Dank Mono';
+      font-size: 21px;
+    }
+    
+    .rgbaValues {
+      font-family: Titillium Web;
+      color: aliceblue;
+      margin: 6px;
+    }
+
+    .select-box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+    
+    .select {
+      font-family: Titillium Web;
+      border-radius: 6px;
+      height: 28px;
+      text-align: center;
+    }
+
+    #color-box {
+      width: 270px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background-color: rgb(47, 49, 49);
+      padding-top: 30px;
+      padding-bottom: 30px;
+      border: solid 1px rgb(181, 184, 188);
+      border-radius: 10px;
+      box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
+    }
+    
