@@ -6,7 +6,7 @@ function Portfolio () {
     <div id='portfolio-box'>
       <div id='portfolio'>
         <div className='portfolio-nav'>
-          <Link id='gg-link' to='/portfolio/gradient-generator'>
+          <Link id='gradient-generator-link' to='/portfolio/gradient-generator'>
             Gradient Generator
           </Link>
           <Link id='cc-link' to='/portfolio/currency-converter'>
